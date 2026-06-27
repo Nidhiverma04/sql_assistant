@@ -1,7 +1,7 @@
 
 # AI SQL Query Assistant
 
-Natural language → SQL → Results → Insights. Runs fully locally via Ollama — no API key needed.
+Natural language → SQL → Results → Insights. 
 
 ## Features
 
