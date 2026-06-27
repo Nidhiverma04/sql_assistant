@@ -16,28 +16,13 @@ Natural language → SQL → Results → Insights. Runs fully locally via Ollama
 
 ## Setup
 
-**1. Install Ollama**
-Download from https://ollama.com and install it.
-
-**2. Pull the model (one time, ~2GB)**
-
-```bash
-ollama pull llama3.2
-```
-
-**3. Start Ollama**
-
-```bash
-ollama serve
-```
-
-**4. Install Python dependencies**
+**1. Install Python dependencies**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-**5. Run the app**
+**2. Run the app**
 
 ```bash
 streamlit run app.py
