@@ -45,13 +45,6 @@ streamlit run app.py
 
 Opens at http://localhost:8501
 
-## Low RAM? Use the smaller model
-
-```bash
-ollama pull llama3.2:1b
-```
-
-Then change `"model": "llama3.2"` to `"model": "llama3.2:1b"` in `utils/nl_to_sql.py`
 
 ## Project structure
 
@@ -64,7 +57,3 @@ sql_assistant/
 ├── requirements.txt
 └── README.md
 ```
-
-## Resume bullet
-
-> Built an AI-powered NL-to-SQL assistant using Ollama (llama3.2) and Streamlit — converts plain English to executable SQLite queries with schema-aware prompt engineering, auto-correction loop for failed queries, auto-generated charts, plain English result explanations, and follow-up question suggestions; supports multi-table CSV uploads with cross-table JOIN queries
